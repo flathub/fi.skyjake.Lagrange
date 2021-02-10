@@ -4,8 +4,6 @@
     "runtime-version": "20.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "lagrange",
-    "rename-desktop-file": "fi.skyjake.lagrange.desktop",
-    "rename-icon": "fi.skyjake.lagrange",
     "finish-args": [
         "--socket=x11",
         "--socket=pulseaudio",
@@ -28,8 +26,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/skyjake/lagrange",
-                    "tag": "v1.1.1",
-                    "commit": "f7f335d0d5b4f488e9707c18a2128190a4549738"
+                    "tag": "v1.1.2",
+                    "commit": "b0b414f8414f937c7287ce3ff2128b7ded61ed46"
                 }
             ]
         }
