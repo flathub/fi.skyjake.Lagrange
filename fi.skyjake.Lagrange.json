@@ -20,14 +20,15 @@
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DCMAKE_INSTALL_PREFIX=/app",
-                "-DENABLE_DOWNLOAD_EDIT=NO"
+                "-DENABLE_DOWNLOAD_EDIT=NO",
+                "-DENABLE_IPC=NO"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/skyjake/lagrange",
-                    "tag": "v1.3.2",
-                    "commit": "6bb9b53fa020ac87ef5dad43a667990addeb255a"
+                    "tag": "v1.3.3",
+                    "commit": "fb9b916075465d08648e49b9767e248a2a4bdff7"
                 }
             ]
         }
