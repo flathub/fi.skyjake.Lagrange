@@ -21,6 +21,7 @@
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DCMAKE_INSTALL_PREFIX=/app",
                 "-DENABLE_DOWNLOAD_EDIT=NO",
+                "-DENABLE_FRIBIDI_BUILD=YES",
                 "-DENABLE_IPC=NO"
             ],
             "sources": [
