@@ -5,7 +5,8 @@
     "sdk": "org.freedesktop.Sdk",
     "command": "lagrange",
     "finish-args": [
-        "--socket=x11",
+        "--socket=wayland",
+        "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--share=ipc",
         "--share=network",
