@@ -5,7 +5,7 @@
     "sdk": "org.freedesktop.Sdk",
     "command": "lagrange",
     "finish-args": [
-        "--socket=wayland",
+        "--socket=x11",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--share=ipc",
@@ -29,8 +29,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/skyjake/lagrange",
-                    "tag": "v1.6.5",
-                    "commit": "a9910c3ef7d5438e1bc7f8347f9c8f054c4be492"
+                    "tag": "v1.7.0",
+                    "commit": "d2e9a753a09aaee75aaae893707c6f0eb38d5ffc"
                 }
             ]
         }
