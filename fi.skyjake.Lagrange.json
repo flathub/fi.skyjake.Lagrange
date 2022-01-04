@@ -23,7 +23,8 @@
                 "-DCMAKE_INSTALL_PREFIX=/app",
                 "-DENABLE_DOWNLOAD_EDIT=NO",
                 "-DENABLE_FRIBIDI_BUILD=YES",
-                "-DENABLE_IPC=NO"
+                "-DENABLE_IPC=NO",
+                "-DTFDN_ENABLE_SSE41=NO"
             ],
             "sources": [
                 {
