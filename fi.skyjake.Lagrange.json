@@ -1,10 +1,11 @@
 {
     "app-id": "fi.skyjake.Lagrange",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "lagrange",
     "finish-args": [
+        "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--share=ipc",
@@ -28,8 +29,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/skyjake/lagrange",
-                    "tag": "v1.16.7",
-                    "commit": "c83b51a88f1b78ca06966c6f8176c51401d76f9d",
+                    "tag": "v1.17.0",
+                    "commit": "6912fc30105379da4e7ad49e64e86a32700ae00b",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d+.]+)(?:\\-\\d+)?$"
