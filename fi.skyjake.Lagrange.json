@@ -15,6 +15,7 @@
         "--filesystem=home:ro"
     ],
     "modules": [
+        "./shared-modules/SDL2/SDL2-with-libdecor.json",
         {
             "name": "lagrange",
             "buildsystem": "cmake-ninja",
