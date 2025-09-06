@@ -30,8 +30,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/skyjake/lagrange",
-                    "tag": "v1.19.0",
-                    "commit": "e8ff97fac9865aea87c3d33feb5175b6a3e923ab",
+                    "tag": "v1.19.1",
+                    "commit": "673e0ba560412cab007282312599641303842a2c",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d+.]+)(?:\\-\\d+)?$"
