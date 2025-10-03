@@ -1,7 +1,7 @@
 {
     "app-id": "fi.skyjake.Lagrange",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "lagrange",
     "finish-args": [
