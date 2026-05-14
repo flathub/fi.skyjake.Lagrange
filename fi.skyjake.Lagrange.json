@@ -1,7 +1,7 @@
 {
     "app-id": "fi.skyjake.Lagrange",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "24.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "lagrange",
     "finish-args": [
@@ -14,8 +14,10 @@
         "--filesystem=xdg-download",
         "--filesystem=home:ro"
     ],
+    "cleanup": [
+        "/share/man"
+    ],
     "modules": [
-        "./shared-modules/SDL2/SDL2-with-libdecor.json",
         {
             "name": "lagrange",
             "buildsystem": "cmake-ninja",
